@@ -1717,8 +1717,8 @@ input, select, textarea {
 }
 
 .product-card {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid #ffffff;
+    background: ff8c00;
+    border: 1px solid #ffa500;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
