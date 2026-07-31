@@ -1795,4 +1795,18 @@ input, select, textarea {
 }
 
 
+#header .content {
+    width: 90%;
+    max-width: 900px;
+}
+
+#header .content .inner {
+    width: 100%;
+}
+
+#header h1 {
+    word-wrap: break-word;
+}
+
+
 
