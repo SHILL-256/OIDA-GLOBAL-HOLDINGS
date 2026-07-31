@@ -2192,3 +2192,36 @@ input, select, textarea {
 	transform:translateY(-5px);
 	transition:0.3s;
 }
+
+.contact-action {
+	background:black;
+	border:2px solid orange;
+	padding:25px;
+	border-radius:15px;
+	text-align:center;
+	margin-top:25px;
+}
+
+.contact-action h3 {
+	color:orange;
+}
+
+.contact-action p {
+	color:white;
+}
+
+.contact-button {
+	display:inline-block;
+	background:orange;
+	color:black;
+	padding:12px 30px;
+	border-radius:8px;
+	text-decoration:none;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+.contact-button:hover {
+	background:white;
+	color:black;
+}
