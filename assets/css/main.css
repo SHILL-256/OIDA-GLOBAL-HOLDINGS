@@ -2225,3 +2225,23 @@ input, select, textarea {
 	background:white;
 	color:black;
 }
+
+
+
+
+#footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    border-top:4px solid orange;
+}
+
+#footer h3{
+    color:orange;
+}
+
+#footer p{
+    color:white;
+    margin:8px 0;
+}
