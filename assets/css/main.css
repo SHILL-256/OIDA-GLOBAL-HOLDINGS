@@ -1878,4 +1878,33 @@ input, select, textarea {
 }
 
 
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card h3 {
+    color: white;
+}
+
+.product-card p {
+    color: white;
+}
+
+@media screen and (max-width: 736px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
