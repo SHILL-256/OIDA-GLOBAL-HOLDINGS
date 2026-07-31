@@ -2015,4 +2015,27 @@ input, select, textarea {
 }
 
 
+.product-card {
+    background: #000000;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid orange;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    background: #222222;
+    transform: translateY(-5px);
+}
+
+.product-card h3,
+.product-card p {
+    color: white;
+}
+
+
 
