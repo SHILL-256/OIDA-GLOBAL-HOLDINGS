@@ -1908,3 +1908,32 @@ input, select, textarea {
 }
 
 
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-card {
+    background: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-card h3 {
+    color: white;
+}
+
+.about-card p,
+.about-card li {
+    color: white;
+}
+
+@media screen and (max-width: 736px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
