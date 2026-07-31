@@ -1847,5 +1847,35 @@ input, select, textarea {
     display: none !important;
 }
 
+/* OIDA Home Professional Design */
+
+#main article#home h2 {
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+#main article#home .welcome {
+    color: #ff8c00;
+    display: inline-block;
+    animation: slideWelcome 2s ease;
+}
+
+@keyframes slideWelcome {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#main article#home p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
 
 
