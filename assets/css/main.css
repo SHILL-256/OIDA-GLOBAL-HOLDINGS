@@ -1952,3 +1952,46 @@ input, select, textarea {
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+.main-logo {
+    animation: zoomLogo 3s infinite alternate;
+}
+
+@keyframes zoomLogo {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#header h1 {
+    color: orange;
+    animation: slideText 3s ease-in-out infinite alternate;
+}
+
+@keyframes slideText {
+    from {
+        transform: translateX(-40px);
+        opacity: 0.5;
+    }
+    to {
+        transform: translateX(40px);
+        opacity: 1;
+    }
+}
+
+#header p {
+    animation: fadeText 4s infinite alternate;
+}
+
+@keyframes fadeText {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
