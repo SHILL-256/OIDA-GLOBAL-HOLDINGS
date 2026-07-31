@@ -2162,3 +2162,33 @@ input, select, textarea {
 .team-card a {
 	text-decoration: none;
 }
+
+
+.contact-box {
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+	gap:20px;
+}
+
+.contact-card {
+	background:black;
+	border:2px solid orange;
+	border-radius:15px;
+	padding:20px;
+	text-align:center;
+}
+
+.contact-card h3 {
+	color:orange;
+}
+
+.contact-card p,
+.contact-card a {
+	color:white;
+	text-decoration:none;
+}
+
+.contact-card:hover {
+	transform:translateY(-5px);
+	transition:0.3s;
+}
