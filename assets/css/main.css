@@ -2286,3 +2286,29 @@ input, select, textarea {
     color:orange;
 }
 
+
+
+
+/* Section Titles */
+.major {
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #ff4da6; /* pink */
+    background: rgba(0,0,0,0.7);
+    padding: 15px 25px;
+    border: 3px solid orange;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 auto 30px auto;
+    box-shadow: 0 0 15px rgba(255,165,0,0.5);
+}
+
+article {
+    text-align: center;
+}
+
+article .major {
+    display: inline-block;
+}
+
