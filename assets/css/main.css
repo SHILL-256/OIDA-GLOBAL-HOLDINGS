@@ -2245,3 +2245,24 @@ input, select, textarea {
     color:white;
     margin:8px 0;
 }
+
+
+
+.testimonial-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.testimonial-card{
+    background:black;
+    color:white;
+    border:2px solid orange;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+}
+
+.testimonial-card h3{
+    color:orange;
+}
