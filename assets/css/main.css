@@ -1783,4 +1783,16 @@ input, select, textarea {
 }
 
 
+#main article#contact {
+    background: rgba(255, 105, 180, 0.85);
+}
+
+#main article#contact h2,
+#main article#contact h3,
+#main article#contact p,
+#main article#contact strong {
+    color: white;
+}
+
+
 
