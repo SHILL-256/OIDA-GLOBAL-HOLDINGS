@@ -1937,9 +1937,18 @@ input, select, textarea {
     }
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px !important;
+    height: 160px !important;
+    margin: 0 auto;
+}
+
 .main-logo {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
