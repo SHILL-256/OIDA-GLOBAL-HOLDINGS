@@ -2266,3 +2266,23 @@ input, select, textarea {
 .testimonial-card h3{
     color:orange;
 }
+
+
+.faq-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.faq-card{
+    background:black;
+    color:white;
+    border:2px solid orange;
+    border-radius:15px;
+    padding:20px;
+}
+
+.faq-card h3{
+    color:orange;
+}
+
