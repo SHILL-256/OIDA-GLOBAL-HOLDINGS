@@ -1366,6 +1366,11 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+
+					background: #ff8c00;
+					colour: #ffffff !important;
+					border-radius: 6px;
+					font-weight: body;
 				}
 
 					#header nav ul li a:hover {
