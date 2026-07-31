@@ -1739,3 +1739,16 @@ input, select, textarea {
         grid-template-columns: 1fr;
     }
 }
+
+/* Green boxes for all sections */
+
+.service-card,
+.product-card,
+.box,
+.contact-box {
+    background: #2e8b57;
+    border: 2px solid #7CFC00;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+}
