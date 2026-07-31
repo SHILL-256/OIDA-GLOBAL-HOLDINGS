@@ -1842,4 +1842,10 @@ input, select, textarea {
 }
 
 
+/* Remove line covering logo */
+#header .logo:before {
+    display: none !important;
+}
+
+
 
