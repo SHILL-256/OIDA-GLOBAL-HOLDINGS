@@ -2428,3 +2428,16 @@ article .major {
 nav ul li {
     margin: 0 10px;
 }
+
+
+<div class="hero-buttons">
+
+    <a href="#services" class="button primary">
+        Explore Our Services
+    </a>
+
+    <a href="#contact" class="button">
+        Contact Us
+    </a>
+
+</div>
