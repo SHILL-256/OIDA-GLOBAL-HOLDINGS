@@ -2377,3 +2377,18 @@ article .major {
     object-fit: contain !important;
     display: block;
 }
+
+
+
+#header .logo {
+    width: 400px !important;
+    height: 400px !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+#header .logo img {
+    width: 400px !important;
+    height: 400px !important;
+    object-fit: contain !important;
+}
