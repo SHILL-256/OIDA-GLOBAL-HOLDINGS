@@ -2401,3 +2401,21 @@ article .major {
     display: block;
     margin: 0 auto;
 }
+
+
+
+#header .logo {
+    width: 100% !important;
+    border: none !important;
+    background: transparent !important;
+    text-align: center !important;
+    margin: 20px auto !important;
+}
+
+#header .logo .main-logo {
+    width: 500px !important;
+    max-width: 90% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
