@@ -2671,3 +2671,18 @@ nav ul li {
   outline: none !important;
   text-decoration: none;
 }
+
+
+
+
+	.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.product-box {
+  background: white;
+  padding: 20px;
+  border: none;
+}
