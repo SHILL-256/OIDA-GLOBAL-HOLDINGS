@@ -2357,3 +2357,23 @@ article .major {
     height: auto !important;
     border: none !important;
 }
+
+/* OIDA BIG LOGO FIX */
+
+#header .logo {
+    width: 450px !important;
+    height: 450px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .logo .main-logo {
+    width: 450px !important;
+    height: 450px !important;
+    object-fit: contain !important;
+    display: block;
+}
