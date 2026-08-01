@@ -2419,3 +2419,7 @@ article .major {
     display: block !important;
     margin: 0 auto !important;
 }
+
+.hero .button {
+    margin: 10px;
+}
