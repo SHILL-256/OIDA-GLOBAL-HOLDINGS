@@ -2423,3 +2423,8 @@ article .major {
 .hero .button {
     margin: 10px;
 }
+
+
+nav ul li {
+    margin: 0 10px;
+}
