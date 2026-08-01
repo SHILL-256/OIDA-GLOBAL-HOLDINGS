@@ -2381,11 +2381,13 @@ article .major {
 
 
 #header .logo {
-    width: 260px !important;
-    height: 260px !important;
+    width: 300px !important;
+    height: 300px !important;
     border: none !important;
     border-radius: 0;
-	display: block;
+	display: flex;
+	justify-content: centre;
+	align-items: centre;
 	margin: 20px auto;
 }
 
