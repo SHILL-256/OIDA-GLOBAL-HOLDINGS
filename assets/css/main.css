@@ -2477,3 +2477,119 @@ nav ul li {
 #header {
     text-align: center;
 }
+
+
+/* Small top navigation */
+.top-nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+}
+
+
+/* Logo background area */
+.hero-logo {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* Faded logo behind */
+.logo-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../images/logo-half.png.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    opacity: 0.12;
+}
+
+
+/* Words on top of logo */
+.hero-text {
+    position: relative;
+    z-index: 1;
+    padding-top: 90px;
+}
+
+
+.hero-text h1 {
+    font-size: 35px;
+}
+
+
+.hero-text p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+
+/* Contact button */
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+
+
+/* Small pink top menu */
+.top-nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li {
+    margin: 0;
+}
+
+.top-nav ul li a {
+    font-size: 11px;
+    color: pink;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+.top-nav ul li a:hover {
+    color: white;
+}
