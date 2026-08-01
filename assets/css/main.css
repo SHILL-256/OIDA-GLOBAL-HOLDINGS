@@ -2441,3 +2441,39 @@ nav ul li {
     </a>
 
 </div>
+
+
+/* Top navigation style */
+.top-nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* Logo size */
+.main-logo {
+    width: 120px;
+    height: auto;
+}
+
+
+/* Header spacing */
+#header {
+    text-align: center;
+}
