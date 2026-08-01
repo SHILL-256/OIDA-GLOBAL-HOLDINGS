@@ -2661,3 +2661,13 @@ nav ul li {
     border: none;
     background: none;
 }
+
+
+	nav a {
+  color: orange !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-decoration: none;
+}
