@@ -1911,7 +1911,7 @@ input, select, textarea {
 #header .content:after,
 #header:before,
 #header:after{
-    display:none !important;
+    display: none !important;
 }
 
 .about-grid {
