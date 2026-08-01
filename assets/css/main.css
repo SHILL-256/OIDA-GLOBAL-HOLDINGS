@@ -2686,3 +2686,18 @@ nav ul li {
   padding: 20px;
   border: none;
 }
+
+
+
+	.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    width: calc(50% - 10px);
+    padding: 20px;
+    border: none;
+}
