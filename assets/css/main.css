@@ -1907,6 +1907,12 @@ input, select, textarea {
     }
 }
 
+#header .content:before,
+#header .content:after,
+#header:before,
+#header:after{
+    display:none !important;
+}
 
 .about-grid {
     display: grid;
