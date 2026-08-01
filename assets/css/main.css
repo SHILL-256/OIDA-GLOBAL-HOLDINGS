@@ -1953,12 +1953,13 @@ input, select, textarea {
 }
 
 .main-logo {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     object-fit: contain;
     border-radius: 0%;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 2rem auto;
+	background: transparent;
 }
 
 
