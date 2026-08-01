@@ -2385,10 +2385,12 @@ article .major {
     height: 400px !important;
     border: none !important;
     border-radius: 0 !important;
+	display: block;
+	margin: 20px auto;
 }
 
 #header .logo img {
-    width: 400px !important;
-    height: 400px !important;
+    width: 300px !important;
+    height: 300px !important;
     object-fit: contain !important;
 }
