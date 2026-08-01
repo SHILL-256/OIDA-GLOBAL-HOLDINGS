@@ -2381,10 +2381,10 @@ article .major {
 
 
 #header .logo {
-    width: 400px !important;
-    height: 400px !important;
+    width: 260px !important;
+    height: 260px !important;
     border: none !important;
-    border-radius: 0 !important;
+    border-radius: 0;
 	display: block;
 	margin: 20px auto;
 }
