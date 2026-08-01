@@ -2320,3 +2320,8 @@ article .major {
     display: inline-block;
 }
 
+
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
