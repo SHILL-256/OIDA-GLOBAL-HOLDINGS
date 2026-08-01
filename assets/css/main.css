@@ -1343,7 +1343,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: none !important;
 			border-radius: 4px;
 		}
 
