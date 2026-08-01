@@ -2380,19 +2380,24 @@ article .major {
 
 
 
-#header .logo {
-    width: 300px !important;
-    height: 300px !important;
+
+   #header .logo {
+    width: 500px !important;
+    height: 500px !important;
     border: none !important;
-    border-radius: 0;
-	display: flex;
-	justify-content: centre;
-	align-items: centre;
-	margin: 20px auto;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
-#header .logo img {
-    width: 300px !important;
-    height: 300px !important;
-    object-fit: contain !important;
+#header .logo img,
+#header .logo .main-logo {
+    width: 500px !important;
+    height: auto !important;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
