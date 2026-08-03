@@ -3084,3 +3084,55 @@ body.is-home #bg {
 #main article a {
     color: white !important;
 }
+
+
+	/* OIDA White Boxes + Pink Background */
+
+/* All page sections pink */
+#main article {
+    background: pink !important;
+}
+
+/* All cards/boxes white */
+.product-card,
+.service-card,
+.contact-card,
+.team-card,
+.testimonial-card,
+.faq-card,
+.about-card,
+.contact-action,
+.contact-box {
+    background: white !important;
+    color: #333 !important;
+    border: 2px solid white !important;
+}
+
+/* Text inside white boxes */
+.product-card h3,
+.product-card p,
+.service-card h3,
+.service-card p,
+.contact-card h3,
+.contact-card p,
+.contact-card a,
+.team-card h3,
+.team-card h4,
+.testimonial-card h3,
+.testimonial-card p,
+.faq-card h3,
+.faq-card p,
+.about-card h3,
+.about-card p,
+.about-card li,
+.contact-action h3,
+.contact-action p {
+    color: #333 !important;
+}
+
+/* Buttons keep color */
+.service-button,
+.contact-button {
+    background: orange !important;
+    color: white !important;
+}
