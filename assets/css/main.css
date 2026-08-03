@@ -2988,3 +2988,11 @@ body {
 body:not(#home) #bg {
     display: none;
 }
+
+
+	#home {
+    background-image: url("../../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
