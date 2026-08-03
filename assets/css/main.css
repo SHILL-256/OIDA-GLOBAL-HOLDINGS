@@ -3152,15 +3152,15 @@ body.is-home #bg {
     color: #28a745 !important;
 }
 
-/* View Products button green */
 #products .product-card a,
 #products .product-card .button {
     background: #28a745 !important;
     color: white !important;
     border-color: #28a745 !important;
+}
 
 
-	/* FORCE PRODUCT COLORS */
+/* FORCE PRODUCT COLORS */
 
 #products .product-card {
     background: white !important;
@@ -3175,5 +3175,4 @@ body.is-home #bg {
 #products .product-card a {
     background: #28a745 !important;
     color: white !important;
-}
 }
