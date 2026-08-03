@@ -3136,3 +3136,46 @@ body.is-home #bg {
     background: orange !important;
     color: white !important;
 }
+
+
+
+	/* FINAL OIDA COLORS */
+
+#main article {
+    background: pink !important;
+}
+
+.product-card,
+.service-card,
+.contact-card,
+.team-card,
+.testimonial-card,
+.faq-card,
+.about-card,
+.contact-action {
+    background: white !important;
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid white !important;
+}
+
+
+.product-card *,
+.service-card *,
+.contact-card *,
+.team-card *,
+.testimonial-card *,
+.faq-card *,
+.about-card *,
+.contact-action * {
+    color: black !important;
+}
+
+
+/* Keep buttons visible */
+.service-button,
+.contact-button,
+.hero-button {
+    background: orange !important;
+    color: white !important;
+}
