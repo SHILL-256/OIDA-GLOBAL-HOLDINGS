@@ -1708,6 +1708,7 @@ input, select, textarea {
     background:rgba(255,255,255,0.1);
 }
 
+
 /* Products Cards */
 
 .product-grid {
@@ -1717,8 +1718,8 @@ input, select, textarea {
 }
 
 .product-card {
-    background: #ff8c00;
-    border: 1px solid #ffa500;
+    background: #28a745;   /* Green */
+    border: 1px solid #28a745;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -1731,8 +1732,12 @@ input, select, textarea {
 }
 
 .product-card p {
+    color: #ffffff;
     margin: 0;
 }
+
+
+
 
 @media screen and (max-width:736px) {
     .product-grid {
