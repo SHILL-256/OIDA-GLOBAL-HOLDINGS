@@ -1709,6 +1709,9 @@ input, select, textarea {
 }
 
 
+
+
+
 /* Products Cards */
 
 .product-grid {
@@ -1718,8 +1721,8 @@ input, select, textarea {
 }
 
 .product-card {
-    background: #28a745;   /* Green */
-    border: 1px solid #28a745;
+    background: white !important;
+    border: 1px solid #ddd !important;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -1727,22 +1730,27 @@ input, select, textarea {
 }
 
 .product-card h3 {
-    color: #ffffff;
+    color: #333 !important;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 .product-card h3 i {
-    color: #ff69b4;   /* Pink icons */
-    font-size: 40px;  /* Bigger icons */
+    color: #28a745 !important;   /* Green icon */
+    font-size: 40px;
     display: block;
     margin-bottom: 10px;
 }
 
 .product-card p {
-    color: #ffffff;
+    color: #555 !important;
     font-size: 14px;
     margin: 0;
+}
+
+.product-card a {
+    background: #28a745 !important; /* Green button */
+    color: white !important;
 }
 
 @media screen and (max-width:736px) {
