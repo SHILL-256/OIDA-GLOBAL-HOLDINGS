@@ -2779,3 +2779,42 @@ nav ul li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+	/* Hero Section */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+                url("../../images/banner.jpg") center center/cover no-repeat;
+    color: white;
+}
+
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero h1 span{
+    color: orange;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    max-width: 800px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
