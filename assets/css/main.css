@@ -3127,7 +3127,7 @@ body.is-home #bg {
 
 .product-card h3 i {
     font-size: 45px !important;
-    color: white !important;
+    color: #28a745 !important;
     display: block;
     margin-bottom: 10px;
 }
@@ -3138,22 +3138,6 @@ body.is-home #bg {
 }
 
 
-/* View Products button */
-.product-card .button,
-.product-card a {
-    background: white !important;
-    color: white !important;
-    border: none !important;
-    padding: 8px 18px !important;
-    border-radius: 20px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.product-card .button:hover,
-.product-card a:hover {
-    background: #1e7e34 !important;
-}
 
 
 
