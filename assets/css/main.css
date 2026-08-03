@@ -3295,4 +3295,27 @@ body.is-home #bg {
 }
 
 
-	
+	 /* FORCE MANAGEMENT WHITE BACKGROUND */
+
+#main article#management {
+    background: white !important;
+    color: #333 !important;
+}
+
+#main article#management .team-card {
+    background: white !important;
+    color: #333 !important;
+    border: 1px solid #ddd !important;
+}
+
+#main article#management .team-card h3 {
+    color: #333 !important;
+}
+
+#main article#management .team-card h4 {
+    color: #28a745 !important;
+}
+
+#main article#management .team-card p {
+    color: #555 !important;
+}
