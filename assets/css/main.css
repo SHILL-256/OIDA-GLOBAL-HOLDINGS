@@ -3107,3 +3107,50 @@ body.is-home #bg {
         grid-template-columns: 1fr !important;
     }
 }
+
+
+
+/* FINAL PRODUCT DESIGN */
+
+.product-card {
+    background: white !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 12px;
+    padding: 10px !important;
+    text-align: center;
+}
+
+.product-card h3 {
+    color: #333 !important;
+    font-size: 15px !important;
+}
+
+.product-card h3 i {
+    font-size: 45px !important;
+    color: #28a745 !important;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: #555 !important;
+    font-size: 12px !important;
+}
+
+
+/* View Products button */
+.product-card .button,
+.product-card a {
+    background: #28a745 !important;
+    color: white !important;
+    border: none !important;
+    padding: 8px 18px !important;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-card .button:hover,
+.product-card a:hover {
+    background: #1e7e34 !important;
+}
