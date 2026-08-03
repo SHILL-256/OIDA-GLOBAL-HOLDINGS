@@ -3114,7 +3114,7 @@ body.is-home #bg {
 
 .product-card {
     background: white !important;
-    border: 2px solid #28a745 !important;
+    border: 2px solid white !important;
     border-radius: 12px;
     padding: 10px !important;
     text-align: center;
@@ -3127,7 +3127,7 @@ body.is-home #bg {
 
 .product-card h3 i {
     font-size: 45px !important;
-    color: #28a745 !important;
+    color: white !important;
     display: block;
     margin-bottom: 10px;
 }
@@ -3141,7 +3141,7 @@ body.is-home #bg {
 /* View Products button */
 .product-card .button,
 .product-card a {
-    background: #28a745 !important;
+    background: white !important;
     color: white !important;
     border: none !important;
     padding: 8px 18px !important;
@@ -3153,4 +3153,31 @@ body.is-home #bg {
 .product-card .button:hover,
 .product-card a:hover {
     background: #1e7e34 !important;
+}
+
+
+
+
+	/* Force Product Cards White */
+#products .product-card {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #333 !important;
+}
+
+/* Remove any green overlay */
+#products .product-card::before,
+#products .product-card::after {
+    background: none !important;
+}
+
+/* Green icons */
+#products .product-card i {
+    color: #28a745 !important;
+}
+
+/* Green button */
+#products .product-card a {
+    background: #28a745 !important;
+    color: white !important;
 }
