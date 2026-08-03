@@ -2996,3 +2996,73 @@ body:not(#home) #bg {
     background-position: center;
     min-height: 100vh;
 }
+
+
+	/* =========================
+   OIDA FINAL DESIGN CHANGES
+   ========================= */
+
+/* Background only on Home */
+#bg {
+    display: none;
+}
+
+body {
+    background: pink;
+}
+
+/* Show background on first page only */
+body.is-home #bg {
+    display: block;
+}
+
+
+/* Small logo */
+#header .logo {
+    width: 120px !important;
+    height: 120px !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+#header .logo img {
+    width: 100px !important;
+    height: auto !important;
+}
+
+
+/* Navigation as words only */
+.top-nav ul li a,
+#header nav ul li a {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 10px !important;
+    color: white !important;
+    min-width: auto !important;
+    height: auto !important;
+    line-height: normal !important;
+}
+
+
+/* Remove lines between menu words */
+#header nav ul li {
+    border: none !important;
+}
+
+
+/* Pink background for pages */
+#main article {
+    background: pink !important;
+    color: white !important;
+}
+
+
+/* Make text visible */
+#main article h1,
+#main article h2,
+#main article h3,
+#main article p,
+#main article li {
+    color: white !important;
+}
