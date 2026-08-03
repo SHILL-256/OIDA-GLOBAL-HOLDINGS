@@ -3295,25 +3295,4 @@ body.is-home #bg {
 }
 
 
-	/* FORCE MANAGEMENT COLORS */
-
-#management .team-card {
-    background: white !important;
-    border: 1px solid #ddd !important;
-}
-
-#management .team-card h3 {
-    color: #333 !important;
-}
-
-#management .team-card h4 {
-    color: #28a745 !important;
-}
-
-#management .team-card a {
-    color: #333 !important;
-}
-
-#management .team-card a:hover {
-    color: #28a745 !important;
-}
+	
