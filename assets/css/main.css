@@ -1796,10 +1796,9 @@ input, select, textarea {
 }
 
 
-#main article#contact {
-    background: rgba(255, 105, 180, 0.85);
+#main article#management {
+    background: white !important;
 }
-
 #main article#contact h2,
 #main article#contact h3,
 #main article#contact p,
@@ -3343,4 +3342,12 @@ body.is-home #bg {
 
 #management .team-card img {
     border-radius: 50% !important;
+}
+
+	#main article#contact {
+    background: rgba(255, 105, 180, 0.85);
+}
+
+#main article#management {
+    background: white !important;
 }
