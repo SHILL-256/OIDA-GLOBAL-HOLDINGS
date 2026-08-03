@@ -3184,3 +3184,14 @@ body.is-home #bg {
     background: #28a745 !important;
     color: white !important;
 }
+
+
+	/* Make all product headings green */
+#products .product-card h3 {
+    color: #28a745 !important;
+}
+
+/* Keep icons green */
+#products .product-card h3 i {
+    color: #28a745 !important;
+}
