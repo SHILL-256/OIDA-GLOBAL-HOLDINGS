@@ -3328,6 +3328,8 @@ body.is-home #bg {
     color: #555 !important;
 }
 
+	</> CSS
+
 @media screen and (max-width:736px) {
     #management .team-container {
         grid-template-columns: 1fr !important;
