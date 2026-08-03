@@ -3066,3 +3066,21 @@ body.is-home #bg {
 #main article li {
     color: white !important;
 }
+
+
+	/* Make all OIDA pages pink */
+#main article {
+    background: pink !important;
+    color: white !important;
+}
+
+/* Make all text white for visibility */
+#main article h1,
+#main article h2,
+#main article h3,
+#main article h4,
+#main article p,
+#main article li,
+#main article a {
+    color: white !important;
+}
