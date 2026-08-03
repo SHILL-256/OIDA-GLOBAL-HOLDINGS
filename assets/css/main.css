@@ -1664,6 +1664,14 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+
+
+
+
+
+
 /* OIDA Service Cards */
 
 .service-grid {
@@ -1673,33 +1681,44 @@ input, select, textarea {
 }
 
 .service-card {
-    background: #ff8c00;
-    border: 2px solid #ffa500;
+    background: white !important;
+    border: 1px solid #ddd !important;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
 .service-card i {
     font-size: 40px;
     margin-bottom: 15px;
-    color: #ffffff;
+    color: #28a745 !important;
 }
 
 .service-card h3 {
+    color: #333 !important;
     font-size: 18px;
 }
 
 .service-card p {
+    color: #555 !important;
     font-size: 14px;
 }
+
+/* Green request button */
+.service-card .service-button {
+    background: #28a745 !important;
+    color: white !important;
+    border-radius: 20px;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
 
 @media screen and (max-width: 736px) {
     .service-grid {
         grid-template-columns: 1fr;
     }
 }
-
 .contact-box {
     text-align:center;
     border:1px solid #ffffff;
@@ -1766,11 +1785,13 @@ input, select, textarea {
     }
 }
 
+
+
 /* OIDA Product & Service Cards */
 
 .service-card i {
-    font-size: 40px;
-    color: white;
+    font-size: 40px !important;
+    color: #28a745 !important;
     margin-bottom: 15px;
 }
 
@@ -1969,12 +1990,16 @@ input, select, textarea {
     }
 }
 
+
+
+/* Green Service Buttons */
+
 .service-button {
-    background: #000 !important;
-    color: #fff !important;
-    border: 2px solid #000 !important;
+    background: #28a745 !important;
+    color: white !important;
+    border: 2px solid #28a745 !important;
     display: inline-block;
-    padding: 12px 25px;
+    padding: 8px 18px;
     border-radius: 20px;
     text-decoration: none !important;
     margin-top: 15px;
@@ -1983,12 +2008,9 @@ input, select, textarea {
 }
 
 .service-button:hover {
-    background: orange !important;
+    background: #1e7e34 !important;
     color: white !important;
 }
-
-
-
 .team-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
