@@ -3270,3 +3270,19 @@ body.is-home #bg {
     margin-right: 8px;
     font-size: 22px;
 }
+
+
+.box,
+.features article,
+.posts article {
+    background: #ff7a00 !important;
+}
+
+.box h2,
+.box h3,
+.features article h2,
+.features article h3,
+.posts article h2,
+.posts article h3 {
+    color: white !important;
+}
