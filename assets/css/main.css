@@ -1742,15 +1742,16 @@ input, select, textarea {
 
 /* OIDA Product & Service Cards */
 
-.product-card,
-.service-card {
-    background: #ff8c00;   /* Orange */
-    border: 2px solid #ffb347;
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    transition: 0.3s;
+.product-card {
+    background: #ff7a00 !important;
+    color: white !important;
+    border: 2px solid #ff7a00 !important;
+}
+
+.product-card h3,
+.product-card p,
+.product-card a {
+    color: white !important;
 }
 
 .product-card:hover,
