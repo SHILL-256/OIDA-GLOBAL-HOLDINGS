@@ -3344,10 +3344,4 @@ body.is-home #bg {
     border-radius: 50% !important;
 }
 
-	#main article#contact {
-    background: rgba(255, 105, 180, 0.85);
-}
-
-#main article#management {
-    background: white !important;
-}
+	
