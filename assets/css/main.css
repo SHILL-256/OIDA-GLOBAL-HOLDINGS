@@ -3286,3 +3286,20 @@ body.is-home #bg {
 .posts article h3 {
     color: white !important;
 }
+
+
+/* Orange service boxes */
+.box {
+    background: #ff7a00 !important;
+    border: none !important;
+    color: #ffffff !important;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.box h2,
+.box h3,
+.box p,
+.box a {
+    color: #ffffff !important;
+}
