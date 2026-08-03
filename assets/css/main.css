@@ -3141,26 +3141,21 @@ body.is-home #bg {
 
 
 
-/* White product boxes */
+/* FINAL PRODUCT COLORS */
+
 #products .product-card {
     background: white !important;
-    border: 1px solid #ddd !important;
-    border-radius: 10px !important;
-    color: #333 !important;
 }
 
-/* Green big icons */
-#products .product-card h3 i {
+/* Remove pink/black from icons and make them green */
+#products .product-card i {
     color: #28a745 !important;
-    font-size: 40px !important;
 }
 
-/* Green small View Products button */
-#products .product-card a {
+/* View Products button green */
+#products .product-card a,
+#products .product-card .button {
     background: #28a745 !important;
     color: white !important;
-    padding: 6px 14px !important;
-    border-radius: 20px !important;
-    font-size: 12px !important;
-    display: inline-block;
+    border-color: #28a745 !important;
 }
