@@ -3286,3 +3286,50 @@ body.is-home #bg {
         grid-template-columns: 1fr;
     }
 }
+
+
+	/* FINAL MANAGEMENT DESIGN */
+
+#management .team-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 15px !important;
+}
+
+#management .team-card {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    text-align: center !important;
+}
+
+#management .team-card a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+#management .team-card img {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+
+#management .team-card h3 {
+    color: #333 !important;
+}
+
+#management .team-card h4 {
+    color: #28a745 !important;
+}
+
+#management .team-card p {
+    color: #555 !important;
+}
+
+@media screen and (max-width:736px) {
+    #management .team-container {
+        grid-template-columns: 1fr !important;
+    }
+}
