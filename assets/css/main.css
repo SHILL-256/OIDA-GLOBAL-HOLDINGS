@@ -3220,3 +3220,36 @@ body.is-home #bg {
     font-size: 14px;
     color: white;
 }
+
+
+
+.product-card {
+    background: white;
+    width: 220px;
+    min-height: 170px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    filter: none;
+}
+
+.product-card h3 {
+    color: pink;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #333;
+    font-size: 14px;
+}
