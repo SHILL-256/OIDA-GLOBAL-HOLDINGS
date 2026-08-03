@@ -1713,30 +1713,43 @@ input, select, textarea {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .product-card {
     background: #28a745;   /* Green */
     border: 1px solid #28a745;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .product-card h3 {
     color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 i {
+    color: #ff69b4;   /* Pink icons */
+    font-size: 40px;  /* Bigger icons */
+    display: block;
     margin-bottom: 10px;
 }
 
 .product-card p {
     color: #ffffff;
+    font-size: 14px;
     margin: 0;
 }
 
-
+@media screen and (max-width:736px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 @media screen and (max-width:736px) {
