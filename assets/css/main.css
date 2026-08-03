@@ -3179,3 +3179,12 @@ body.is-home #bg {
     background: orange !important;
     color: white !important;
 }
+
+
+	.product-card {
+    background-color: pink;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
