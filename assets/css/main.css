@@ -2818,3 +2818,87 @@ nav ul li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+	.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 40px;
+    z-index: 1000;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.top-nav a:hover {
+    color: orange;
+}
+
+
+
+
+
+	.hero {
+    text-align: center;
+    padding: 150px 20px 80px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.hero h1 span {
+    color: orange;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+
+	.service-card,
+.product-card,
+.contact-card {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+.service-card:hover,
+.product-card:hover,
+.contact-card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+	.service-grid,
+.product-grid,
+.contact-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 25px;
+}
