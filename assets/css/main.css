@@ -3242,3 +3242,47 @@ body.is-home #bg {
 .hero-buttons .button:hover {
     background: #1e7e34 !important;
 }
+
+
+
+	/* Management Team Cards */
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.team-card {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-card h3 {
+    color: #333 !important;
+}
+
+.team-card h4 {
+    color: #28a745 !important;
+}
+
+.team-card p {
+    color: #555 !important;
+    font-size: 14px;
+}
+
+@media screen and (max-width:736px) {
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+}
