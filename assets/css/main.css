@@ -4141,3 +4141,38 @@ text-align:center;
 padding:40px;
 
 }
+
+
+/* Make Services 3 cards per row */
+
+#services .service-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    width: 100%;
+}
+
+
+#services .service-card {
+    width: 100% !important;
+}
+
+
+/* Tablets */
+@media screen and (max-width: 900px){
+
+    #services .service-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+}
+
+
+/* Phones */
+@media screen and (max-width: 600px){
+
+    #services .service-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+}
