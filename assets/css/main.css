@@ -3303,88 +3303,6 @@ body {
     text-align: center !important;
 }
 
-#management .team-card a {
-    color: #333 !important;
-    text-decoration: none !important;
-}
-
-#management .team-card img {
-    width: 120px !important;
-    height: 120px !important;
-    object-fit: cover !important;
-    border-radius: 50% !important;
-}
-
-#management .team-card h3 {
-    color: #333 !important;
-}
-
-#management .team-card h4 {
-    color: #28a745 !important;
-}
-
-#management .team-card p {
-    color: #555 !important;
-}
-
-
-
-@media screen and (max-width:736px) {
-    #management .team-container {
-        grid-template-columns: 1fr !important;
-    }
-}
-
-
-	 /* FORCE MANAGEMENT WHITE BACKGROUND */
-
-#main article#management {
-    background: white !important;
-    color: #333 !important;
-}
-
-#main article#management .team-card {
-    background: white !important;
-    color: #333 !important;
-    border: 1px solid #ddd !important;
-}
-
-#main article#management .team-card h3 {
-    color: #333 !important;
-}
-
-#main article#management .team-card h4 {
-    color: #28a745 !important;
-}
-
-#main article#management .team-card p {
-    color: #555 !important;
-}
-
-
-	/* FORCE MANAGEMENT CARD COLORS */
-
-#management .team-card,
-#management .team-card a {
-    background: white !important;
-    color: #333 !important;
-}
-
-#management .team-card h3 {
-    color: #333 !important;
-}
-
-#management .team-card h4 {
-    color: #28a745 !important;
-}
-
-#management .team-card p {
-    color: #555 !important;
-}
-
-#management .team-card img {
-    border-radius: 50% !important;
-}
 
 
 	/* Convert Dimension template into normal scrolling website */
@@ -3630,6 +3548,27 @@ body {
     background: pink !important;
 }
 
+
+/* MANAGEMENT GREEN BOXES */
+
+#management .team-card {
+    background: #28a745 !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+#management .team-card h3,
+#management .team-card h4,
+#management .team-card p,
+#management .team-card a {
+    color: white !important;
+}
+
+#management .team-card img {
+    border: 3px solid white !important;
+}
 
 
 
