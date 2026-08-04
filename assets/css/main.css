@@ -3429,3 +3429,33 @@ body {
     border: none !important;
     color: #333 !important;
 }
+
+
+/* Menu right */
+#header nav {
+    order: 2 !important;
+    position: static !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+#header nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 25px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+#header nav ul li {
+    display: block !important;
+}
+
+#header nav a {
+    display: inline-block !important;
+    background: transparent !important;
+    border: none !important;
+    color: #333 !important;
+}
