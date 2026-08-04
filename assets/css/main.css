@@ -3455,13 +3455,21 @@ body {
     padding: 10px 40px;
 }
 
-/* Logo left */
+/* Logo right */
+#header .logo {
+    order: 2;
+}
+
 #header .logo img.hero-logo {
     width: 120px !important;
     height: auto !important;
 }
 
-/* Menu right */
+/* Menu left */
+#header nav {
+    order: 1;
+}
+
 #header nav ul {
     display: flex;
     gap: 25px;
@@ -3482,4 +3490,3 @@ body {
 #header nav ul li a:hover {
     color: #28a745 !important;
 }
-
