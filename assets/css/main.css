@@ -3610,3 +3610,54 @@ body {
     opacity: 1 !important;
     visibility: visible !important;
 }
+
+
+/* Talk to an Expert */
+
+.expert-section{
+    padding:70px 40px;
+    background:#f8f9fa;
+}
+
+.expert-section h2{
+    text-align:center;
+    color:#28a745;
+    margin-bottom:40px;
+}
+
+.expert-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.expert-card{
+    background:#fff;
+    border:2px solid #28a745;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.expert-card:hover{
+    transform:translateY(-5px);
+}
+
+.expert-card i{
+    font-size:45px;
+    color:#28a745;
+    margin-bottom:15px;
+}
+
+.expert-card h3{
+    color:#28a745;
+    margin-bottom:10px;
+}
+
+.expert-card p,
+.expert-card a{
+    color:#555;
+    text-decoration:none;
+    font-weight:500;
+}
