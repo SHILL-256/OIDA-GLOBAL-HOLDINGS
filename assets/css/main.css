@@ -3477,3 +3477,11 @@ body {
 }
 
 
+#header nav {
+    opacity: 1 !important;
+}
+
+#header nav ul {
+    opacity: 1 !important;
+}
+
