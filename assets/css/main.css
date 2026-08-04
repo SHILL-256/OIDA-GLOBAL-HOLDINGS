@@ -1788,50 +1788,61 @@ body.is-preload #bg:before {
 
 
 
-/* OIDA Product & Service Cards */
 
+/* OIDA Service Cards */
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background: #28a745 !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Big green icons */
 .service-card i {
-    font-size: 40px !important;
-    color: #28a745 !important;
+    font-size: 50px;
     margin-bottom: 15px;
+    color: white !important;
 }
 
+/* White words */
+.service-card h3 {
+    color: white !important;
+    font-size: 18px;
+}
 
+.service-card p {
+    color: white !important;
+    font-size: 14px;
+}
 
-/* CONTACT SECTION DESIGN */
-
-#main article#contact {
+/* Request button */
+.service-card .service-button {
     background: white !important;
-}
-
-#main article#contact h2 {
     color: #28a745 !important;
+    border-radius: 20px;
+    padding: 8px 18px;
+    display: inline-block;
+    font-weight: bold;
 }
 
-#main article#contact h3 {
-    color: #28a745 !important;
-}
-
-#main article#contact p {
-    color: #333 !important;
-}
-
-#main article#contact strong {
-    color: #28a745 !important;
+.service-card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
 }
 
 
-#header .content {
-    width: 90%;
-    max-width: 900px;
-}
-
-#header .content .inner {
-    width: 100%;
-}
-
-#header h1 {
-    word-wrap: break-word;
+@media screen and (max-width:736px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 
