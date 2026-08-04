@@ -3521,3 +3521,50 @@ body {
     background: orange !important;
     color: white !important;
 }
+
+
+/* My Account Login Box */
+
+.login-box {
+    background: #000 !important;
+    padding: 40px;
+    width: 350px;
+    margin: 80px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.login-box h2 {
+    color: white !important;
+}
+
+.login-box p {
+    color: white !important;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.login-box label {
+    color: white;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.login-box button:hover {
+    background: orange;
+}
