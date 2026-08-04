@@ -1553,7 +1553,7 @@ input, select, textarea {
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 1;
 		}
 
 			#main article.active {
@@ -1562,6 +1562,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				
 			}
 
 			#main article .close {
