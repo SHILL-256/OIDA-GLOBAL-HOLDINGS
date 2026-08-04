@@ -3580,6 +3580,52 @@ body.is-article-visible #footer {
 }
 
 
+/* MANAGEMENT AND INQUIRY GREEN DESIGN */
+
+#management .team-card {
+    background: #28a745 !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#management .team-card h3,
+#management .team-card h4,
+#management .team-card p {
+    color: white !important;
+}
+
+
+#management .team-card a {
+    color: white !important;
+}
+
+
+/* Inquiry box */
+
+.contact-action {
+    background: #28a745 !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.contact-action h3,
+.contact-action p {
+    color: white !important;
+}
+
+
+.contact-button {
+    background: white !important;
+    color: #28a745 !important;
+}
+
+
 body {
     background: pink !important;
 }
