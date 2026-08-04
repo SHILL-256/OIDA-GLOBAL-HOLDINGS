@@ -401,6 +401,26 @@
 			<script src="assets/js/util.js"></script>
 		    <script src="assets/js/main.js"></script>
 			
+<!-- OIDA Notifications -->
+<script>
+if ("Notification" in window) {
 
+    // Ask user for permission
+    Notification.requestPermission().then(function(permission) {
+
+        if (permission === "granted") {
+
+            // Show notification
+            new Notification("OIDA Global Holdings Ltd", {
+                body: "Welcome! Check our latest products and services updates.",
+                icon: "images/logo-half.png.jpeg"
+            });
+
+        }
+
+    });
+
+}
+</script>
 	</body>
 </html>
