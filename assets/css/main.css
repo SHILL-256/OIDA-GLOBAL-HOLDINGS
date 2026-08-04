@@ -3347,4 +3347,29 @@ body.is-home #bg {
     border-radius: 50% !important;
 }
 
+
+	/* Convert Dimension template into normal scrolling website */
+
+#main {
+    display: block !important;
+}
+
+#main article {
+    display: block !important;
+    opacity: 1 !important;
+    transform: none !important;
+    position: relative !important;
+    margin: 30px auto !important;
+}
+
+body.is-article-visible #header,
+body.is-article-visible #footer {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+}
+
+#main article .close {
+    display: none !important;
+}
 	
