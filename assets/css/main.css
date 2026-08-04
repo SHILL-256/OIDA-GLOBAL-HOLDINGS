@@ -3391,3 +3391,19 @@ body.is-article-visible #footer {
     visibility: visible;
     transform: translateY(0);
 }
+
+
+
+	/* About Section Colors */
+
+#about h2.major {
+    color: blue;
+}
+
+.about-circle h3 {
+    color: blue;
+}
+
+.about-circle i {
+    color: green;
+}
