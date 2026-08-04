@@ -3469,3 +3469,25 @@ body {
     font-size: 14px !important;
     white-space: nowrap !important;
 }
+
+
+/* Remove unwanted template lines */
+
+#wrapper,
+#main,
+#header,
+#footer {
+    border: none !important;
+}
+
+#main article {
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+#header:before,
+#header:after,
+#footer:before,
+#footer:after {
+    display: none !important;
+}
