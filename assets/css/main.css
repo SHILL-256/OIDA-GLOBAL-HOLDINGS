@@ -3372,4 +3372,16 @@ body.is-article-visible #footer {
 #main article .close {
     display: none !important;
 }
+
+
+	#header {
+    text-align: center;
+}
+
+.hero-logo {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
 	
