@@ -1797,14 +1797,27 @@ body.is-preload #bg:before {
 }
 
 
-#main article#management {
+
+/* CONTACT SECTION DESIGN */
+
+#main article#contact {
     background: white !important;
 }
-#main article#contact h2,
-#main article#contact h3,
-#main article#contact p,
+
+#main article#contact h2 {
+    color: #28a745 !important;
+}
+
+#main article#contact h3 {
+    color: #28a745 !important;
+}
+
+#main article#contact p {
+    color: #333 !important;
+}
+
 #main article#contact strong {
-    color: white;
+    color: #28a745 !important;
 }
 
 
@@ -2138,69 +2151,81 @@ body.is-preload #bg:before {
 }
 
 
+/* CONTACT CARDS GREEN AND WHITE */
+
 .contact-box {
-	display:grid;
-	grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-	gap:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
 }
+
 
 .contact-card {
-	background:black;
-	border:2px solid orange;
-	border-radius:15px;
-	padding:20px;
-	text-align:center;
+    background:white !important;
+    border:2px solid #28a745 !important;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
 }
 
+
 .contact-card h3 {
-	color:orange;
+    color:#28a745 !important;
 }
+
 
 .contact-card p,
 .contact-card a {
-	color:white;
-	text-decoration:none;
+    color:#333 !important;
+    text-decoration:none;
 }
+
 
 .contact-card:hover {
-	transform:translateY(-5px);
-	transition:0.3s;
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
+
+
+/* Inquiry box */
 
 .contact-action {
-	background:black;
-	border:2px solid orange;
-	padding:25px;
-	border-radius:15px;
-	text-align:center;
-	margin-top:25px;
+    background:#28a745 !important;
+    border:2px solid white !important;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    margin-top:25px;
 }
+
 
 .contact-action h3 {
-	color:orange;
+    color:white !important;
 }
+
 
 .contact-action p {
-	color:white;
+    color:white !important;
 }
+
 
 .contact-button {
-	display:inline-block;
-	background:orange;
-	color:black;
-	padding:12px 30px;
-	border-radius:8px;
-	text-decoration:none;
-	font-weight:bold;
-	margin-top:15px;
+    display:inline-block;
+    background:white !important;
+    color:#28a745 !important;
+    padding:12px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
 }
+
 
 .contact-button:hover {
-	background:white;
-	color:black;
+    background:#1e7e34 !important;
+    color:white !important;
 }
-
-
 
 
 #footer{
@@ -2522,7 +2547,15 @@ nav ul li {
     padding: 10px 25px;
     border-radius: 25px;
     text-decoration: none;
+    background: #28a745 !important;
+    color: white !important;
+    font-weight: bold;
+}
 
+.hero-button:hover {
+    background: #1e7e34 !important;
+    color: white !important;
+}
 
 /* Small pink top menu */
 .top-nav {
@@ -2846,6 +2879,30 @@ nav ul li {
     gap: 25px;
 }
 
+/* Contact cards green design */
+.contact-card {
+    background: #28a745 !important;
+    border: 2px solid #28a745 !important;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    color: white !important;
+}
+
+.contact-card h3 {
+    color: white !important;
+}
+
+.contact-card p,
+.contact-card a {
+    color: white !important;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    background: #1e7e34 !important;
+}
+
 
 	/* OIDA Professional Hero Section */
 
@@ -3022,23 +3079,23 @@ body {
 
 
 
-/* Buttons keep color */
-.service-button,
-.contact-button {
-    background: orange !important;
-    color: white !important;
-}
-
-
-/* Keep buttons visible */
+/* Buttons green */
 .service-button,
 .contact-button,
 .hero-button {
-    background: orange !important;
+    background: #28a745 !important;
     color: white !important;
+    border-color: #28a745 !important;
 }
 
 
+/* Button hover */
+.service-button:hover,
+.contact-button:hover,
+.hero-button:hover {
+    background: #1e7e34 !important;
+    color: white !important;
+}
 
 
 /* Make Product Cards Small - 3 in a row */
