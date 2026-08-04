@@ -3538,4 +3538,16 @@ body {
 #contact .contact-card:hover a {
     color: white !important;
 }
+
+
+
+	/* Change OIDA background to purple */
+
+body {
+    background: purple !important;
+}
+
+#main article {
+    background: purple !important;
+}
 	
