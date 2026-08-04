@@ -3287,23 +3287,6 @@ body {
 
 
 
-	/* FINAL MANAGEMENT DESIGN */
-
-#management .team-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 15px !important;
-}
-
-#management .team-card {
-    background: white !important;
-    border: 1px solid #ddd !important;
-    border-radius: 10px !important;
-    padding: 15px !important;
-    text-align: center !important;
-}
-
-
 
 	/* Convert Dimension template into normal scrolling website */
 
@@ -3581,4 +3564,29 @@ body {
 #main article {
     background: purple !important;
 }
+
+
+/* FIX SERVICES TEXT */
+
+#services .service-card {
+    background: #28a745 !important;
+    color: white !important;
+}
+
+#services .service-card h3,
+#services .service-card p {
+    color: white !important;
+}
+
+#services .service-card i {
+    color: white !important;
+}
+
+#services .service-button {
+    background: white !important;
+    color: #28a745 !important;
+}
+
+
+
 	
