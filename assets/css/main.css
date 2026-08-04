@@ -3439,5 +3439,74 @@ body.is-article-visible #footer {
     color: orange;
 }
 
+/* =========================
+   FINAL OIDA HEADER FIX
+   ========================= */
 
+
+/* Header order */
+#header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+
+
+/* Hide company title */
+#header .content {
+    display: none !important;
+}
+
+
+/* Menu first */
+#header nav,
+.top-nav {
+    order: 1 !important;
+    position: relative !important;
+    margin: 10px 0 !important;
+}
+
+
+/* Logo second */
+#header .logo {
+    order: 2 !important;
+    margin-top: 20px !important;
+}
+
+
+/* Small logo */
+#header .hero-logo {
+    width: 120px !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+
+/* Menu words only */
+#header nav ul {
+    display: flex !important;
+    gap: 20px !important;
+    justify-content: center !important;
+}
+
+
+#header nav ul li a {
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    padding: 0 !important;
+    font-size: 15px !important;
+}
+
+
+/* Remove background image */
+#bg {
+    display: none !important;
+}
+
+
+body {
+    background: pink !important;
+}
 	
