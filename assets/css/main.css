@@ -3585,3 +3585,28 @@ body {
     background: #28a745 !important;
     color: #fff !important;
 }
+
+/* Green buttons */
+
+.button,
+.button.primary,
+.contact-button {
+    background: #28a745 !important;
+    color: #ffffff !important;
+    border: 2px solid #28a745 !important;
+}
+
+.button:hover,
+.button.primary:hover,
+.contact-button:hover {
+    background: orange !important;
+    border-color: orange !important;
+    color: #ffffff !important;
+}
+
+.button,
+.button.primary,
+.contact-button {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
