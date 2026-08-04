@@ -1629,37 +1629,6 @@ input, select, textarea {
 		}
 
 
-/* MANAGEMENT PAGE ONLY */
-#main article#management {
-    background: #ffffff !important;
-    color: #333 !important;
-}
-
-#main article#management .major {
-    color: #28a745 !important;
-}
-
-#main article#management .team-card {
-    background: #ffffff !important;
-    border: 1px solid #ddd !important;
-    border-radius: 10px;
-}
-
-#main article#management h3 {
-    color: #333 !important;
-}
-
-#main article#management h4 {
-    color: #28a745 !important;
-}
-
-#main article#management p {
-    color: #555 !important;
-}
-
-#main article#management a {
-    color: #333 !important;
-}
 
 /* Footer */
 
