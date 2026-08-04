@@ -4143,35 +4143,42 @@ padding:40px;
 }
 
 
-/* Make Services 3 cards per row */
+/* FORCE OIDA SERVICES 3 COLUMNS */
 
-#services .service-grid {
+#services .service-grid,
+.service-grid {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     gap: 20px !important;
-    width: 100%;
-}
-
-
-#services .service-card {
     width: 100% !important;
 }
 
 
-/* Tablets */
-@media screen and (max-width: 900px){
+#services .service-card,
+.service-card {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+}
 
-    #services .service-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
+
+
+/* Tablet */
+@media screen and (max-width: 980px) {
+
+    #services .service-grid,
+    .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 
 }
 
 
-/* Phones */
-@media screen and (max-width: 600px){
+/* Mobile */
+@media screen and (max-width: 600px) {
 
-    #services .service-grid {
+    #services .service-grid,
+    .service-grid {
         grid-template-columns: 1fr !important;
     }
 
