@@ -2610,9 +2610,11 @@ nav ul li {
     padding-top: 80px;
 }
 
+/* =========================
+   HERO SECTION
+   ========================= */
 
-	/* Hero Section */
-.hero{
+.hero {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -2620,116 +2622,14 @@ nav ul li {
     align-items: center;
     text-align: center;
     padding: 40px;
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-                url("../../images/banner.jpg") center center/cover no-repeat;
-    color: white;
-}
-
-.hero h1{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.hero h1 span{
-    color: orange;
-}
-
-.hero p{
-    font-size: 1.2rem;
-    max-width: 800px;
-    line-height: 1.8;
-    margin-bottom: 30px;
-}
-
-.hero-buttons{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-	/* Hero Section */
-.hero{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-                url("../../images/banner.jpg") center center/cover no-repeat;
-    color: white;
-}
-
-.hero h1{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.hero h1 span{
-    color: orange;
-}
-
-.hero p{
-    font-size: 1.2rem;
-    max-width: 800px;
-    line-height: 1.8;
-    margin-bottom: 30px;
-}
-
-.hero-buttons{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-	.top-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px 40px;
-    z-index: 1000;
-    background: rgba(0,0,0,0.4);
-    backdrop-filter: blur(10px);
-}
-
-.top-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    list-style: none;
-}
-
-.top-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.top-nav a:hover {
-    color: orange;
-}
-
-
-
-
-
-	.hero {
-    text-align: center;
-    padding: 150px 20px 80px;
+    background: transparent !important;
     color: white;
 }
 
 .hero h1 {
     font-size: 3.5rem;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .hero h1 span {
@@ -2740,8 +2640,15 @@ nav ul li {
     font-size: 1.3rem;
     max-width: 700px;
     margin: 20px auto;
+    line-height: 1.8;
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 	
 /* Contact cards green design */
@@ -2836,10 +2743,7 @@ body {
 
 
 	#bg {
-    background-image: url("../../images/banner.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent !important;
     height: 100vh;
     width: 100%;
     position: fixed;
