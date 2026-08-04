@@ -3507,3 +3507,17 @@ body {
     transform: none !important;
 }
 
+
+
+/* Products Next Button */
+
+#products .button.primary {
+    background: #28a745 !important;
+    color: white !important;
+    border: none !important;
+}
+
+#products .button.primary:hover {
+    background: orange !important;
+    color: white !important;
+}
