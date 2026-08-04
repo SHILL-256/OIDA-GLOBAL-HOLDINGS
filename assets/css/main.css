@@ -3413,4 +3413,28 @@ body {
     background: purple !important;
 }
 
+/* Home page */
+#home .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Big logo */
+#home .hero-logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Next button */
+#home .hero-buttons .button {
+    background: #28a745 !important;
+    color: white !important;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
 
