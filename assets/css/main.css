@@ -1698,18 +1698,40 @@ body.is-preload #bg:before {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
 .contact-box {
-    text-align:center;
-    border:1px solid #ffffff;
-    padding:20px;
-    border-radius:10px;
-    background:rgba(255,255,255,0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
 }
 
 
+.contact-card {
+    background: white !important;
+    border: 2px solid #28a745 !important;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 
+.contact-card h3 {
+    color: #28a745 !important;
+}
 
+
+.contact-card p {
+    color: #333 !important;
+}
+
+
+.contact-card a {
+    color: #28a745 !important;
+}
 /* Products Cards */
 
 .product-grid {
@@ -3505,39 +3527,6 @@ body {
     background: pink !important;
 }
 
-
-	/* CONTACT CARDS GREEN & WHITE DESIGN */
-
-#contact .contact-card {
-    background: white !important;
-    border: 2px solid #28a745 !important;
-    border-radius: 12px !important;
-    padding: 20px !important;
-    text-align: center !important;
-}
-
-#contact .contact-card h3 {
-    color: #28a745 !important;
-}
-
-#contact .contact-card p {
-    color: #333 !important;
-}
-
-#contact .contact-card a {
-    color: #28a745 !important;
-    text-decoration: none !important;
-}
-
-#contact .contact-card:hover {
-    background: #28a745 !important;
-}
-
-#contact .contact-card:hover h3,
-#contact .contact-card:hover p,
-#contact .contact-card:hover a {
-    color: white !important;
-}
 
 
 
