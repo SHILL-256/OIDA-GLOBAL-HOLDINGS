@@ -1107,11 +1107,12 @@ input, select, textarea {
 
 
 
+
+
 /* =========================
-   OIDA BACKGROUND SETTINGS
+   OIDA NO BACKGROUND IMAGE
    ========================= */
 
-/* Background container */
 #bg {
     position: fixed;
     top: 0;
@@ -1121,45 +1122,39 @@ input, select, textarea {
     z-index: 0;
 }
 
-/* Remove old template background */
-#bg:before,
-#bg:after {
+
+/* Remove background image */
+#bg:before {
     content: '';
-    display: block;
     position: absolute;
     width: 100%;
     height: 100%;
+    background-image: none !important;
+    background: pink !important;
 }
 
 
-/* Main background image */
-#bg:before {
-    background-image: url("../../images/banner.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-}
-
-
-/* Dark overlay */
+/* Remove dark overlay */
 #bg:after {
-    background: rgba(0,0,0,0.35);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent !important;
 }
 
 
-/* Remove blur effect */
+/* Remove blur */
 body.is-article-visible #bg:after {
     transform: none;
     filter: none;
 }
 
 
-/* Remove black loading screen */
+/* Remove loading background */
 body.is-preload #bg:before {
-    background-color: transparent;
+    background: pink !important;
 }
-
 /* Wrapper */
 
 	#wrapper {
