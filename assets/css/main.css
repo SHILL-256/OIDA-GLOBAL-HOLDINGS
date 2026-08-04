@@ -3485,3 +3485,25 @@ body {
     opacity: 1 !important;
 }
 
+
+/* Force OIDA menu to appear */
+
+#header nav ul li a {
+    display: inline-block !important;
+    color: #333333 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
+
+#header nav ul li {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+#header nav {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
+
