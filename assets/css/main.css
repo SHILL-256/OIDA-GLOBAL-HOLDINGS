@@ -3389,16 +3389,7 @@ body {
 
 
 
-/* Logo right */
-#header .logo {
-    order: 2;
-}
 
-#header .logo img.hero-logo {
-    width: 200px !important;
-    height: auto !important;
-    object-fit: contain !important;
-}
 
 /* OIDA Logo Left - Menu Right */
 
