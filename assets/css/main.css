@@ -2272,7 +2272,7 @@ article .major {
 
 #header .logo img,
 #header .logo .main-logo {
-    width: 500px !important;
+    width: 300px !important;
     height: auto !important;
     max-width: 100%;
     object-fit: contain;
@@ -2755,7 +2755,7 @@ body {
 }
 
 #header .logo img {
-    width: 100px !important;
+    width: 70px !important;
     height: auto !important;
 }
 
@@ -3458,4 +3458,14 @@ body {
     background: transparent !important;
     border: none !important;
     color: #333 !important;
+}
+
+
+#header nav ul {
+    gap: 15px !important;
+}
+
+#header nav ul li a {
+    font-size: 14px !important;
+    white-space: nowrap !important;
 }
