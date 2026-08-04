@@ -4227,97 +4227,30 @@ padding:40px;
 
 
 
-/* Travel Services */
+/* Travel Page Cards */
 
-.travel-services {
-
-    padding:60px 40px;
-    background:#f5f5f5;
-
-}
-
-
-.travel-services h2 {
-
-    text-align:center;
-    color:#28a745;
-    margin-bottom:40px;
-
-}
-
-
-
-.travel-grid {
-
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-
-}
-
-
-
-.travel-card {
-
+.travel-card{
     background:white;
-    padding:30px;
-    text-align:center;
+    padding:25px;
     border-radius:15px;
+    text-align:center;
     border:2px solid #28a745;
-
 }
 
 
-
-.travel-card i {
-
+.travel-card i{
+    font-size:40px;
     color:#28a745;
-    font-size:45px;
     margin-bottom:15px;
-
 }
 
 
-
-.travel-card h3 {
-
+.travel-card h3{
     color:#28a745;
-
 }
 
 
-
-.travel-card p {
-
+.travel-card p{
     color:#555;
     line-height:1.5;
-
-}
-
-
-
-
-
-/* Responsive */
-
-@media screen and (max-width:1000px){
-
-    .travel-grid{
-
-        grid-template-columns:repeat(2,1fr);
-
-    }
-
-}
-
-
-
-@media screen and (max-width:600px){
-
-    .travel-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
 }
