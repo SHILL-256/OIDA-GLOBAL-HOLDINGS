@@ -3209,28 +3209,36 @@ body.is-article-visible #footer {
 }
 
 
-/* MANAGEMENT AND INQUIRY GREEN DESIGN */
+/* =========================
+   MANAGEMENT WHITE BOX DESIGN
+   ========================= */
 
 #management .team-card {
-    background: #28a745 !important;
-    border: 2px solid #28a745 !important;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    text-align: center !important;
 }
-
 
 #management .team-card h3,
-#management .team-card h4,
-#management .team-card p {
-    color: white !important;
+#management .team-card h4 {
+    color: #28a745 !important;
 }
 
+#management .team-card p {
+    color: #555 !important;
+}
 
 #management .team-card a {
-    color: white !important;
+    color: #28a745 !important;
+    text-decoration: none !important;
 }
 
+#management .team-card img {
+    border: 3px solid #28a745 !important;
+    border-radius: 50% !important;
+}
 
 /* Inquiry box */
 
@@ -3260,27 +3268,33 @@ body {
 }
 
 
-/* MANAGEMENT GREEN BOXES */
+/* MANAGEMENT WHITE BOXES */
 
 #management .team-card {
-    background: #28a745 !important;
-    border: 2px solid #28a745 !important;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    text-align: center !important;
 }
 
 #management .team-card h3,
-#management .team-card h4,
-#management .team-card p,
+#management .team-card h4 {
+    color: #28a745 !important;
+}
+
+#management .team-card p {
+    color: #555 !important;
+}
+
 #management .team-card a {
-    color: white !important;
+    color: #28a745 !important;
 }
 
 #management .team-card img {
-    border: 3px solid white !important;
+    border: 3px solid #28a745 !important;
+    border-radius: 50% !important;
 }
-
 
 
 	/* Change OIDA background to purple */
