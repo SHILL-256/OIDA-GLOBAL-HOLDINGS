@@ -3372,3 +3372,14 @@ body {
         grid-template-columns:1fr !important;
     }
 }
+
+
+
+/* FORCE OIDA LOGO SIZE */
+
+#header .logo img.hero-logo {
+    width: 300px !important;
+    height: auto !important;
+    max-width: none !important;
+    object-fit: contain !important;
+}
