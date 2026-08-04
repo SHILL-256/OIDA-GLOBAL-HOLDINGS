@@ -3443,3 +3443,43 @@ body {
     color: #28a745 !important;
 }
 
+/* OIDA White Top Bar */
+
+#header {
+    background: white !important;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+/* Logo left */
+#header .logo img.hero-logo {
+    width: 120px !important;
+    height: auto !important;
+}
+
+/* Menu right */
+#header nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header nav ul li a {
+    color: #333 !important;
+    background: transparent !important;
+    border: none !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#header nav ul li a:hover {
+    color: #28a745 !important;
+}
+
