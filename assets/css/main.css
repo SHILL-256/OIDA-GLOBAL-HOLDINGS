@@ -3780,3 +3780,364 @@ body {
     width:70%;
     margin:25px auto;
 }
+
+
+/* ==============================
+   AGRICULTURE PAGE
+================================*/
+
+
+.service-top{
+
+background:white;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:15px 50px;
+
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+
+}
+
+
+.service-top img{
+
+width:150px;
+
+}
+
+
+
+.back-btn{
+
+background:#28a745;
+
+color:white;
+
+padding:12px 25px;
+
+border-radius:25px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.back-btn:hover{
+
+background:#1e7e34;
+
+}
+
+
+
+
+
+/* Hero */
+
+.service-banner{
+
+background:linear-gradient(135deg,#28a745,#145214);
+
+color:white;
+
+text-align:center;
+
+padding:90px 20px;
+
+}
+
+
+
+.service-banner i{
+
+font-size:90px;
+
+}
+
+
+
+.service-banner h1{
+
+font-size:40px;
+
+}
+
+
+
+.service-banner p{
+
+max-width:800px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+
+
+
+
+
+/* Solutions */
+
+
+.solutions-section{
+
+padding:70px 40px;
+
+background:#f5f5f5;
+
+}
+
+
+
+.solutions-section h2{
+
+text-align:center;
+
+color:#28a745;
+
+margin-bottom:40px;
+
+}
+
+
+
+.solutions-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.solution-card{
+
+background:white;
+
+border:2px solid #28a745;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+}
+
+
+
+.solution-card i{
+
+font-size:45px;
+
+color:#28a745;
+
+}
+
+
+
+.solution-card h3{
+
+color:#28a745;
+
+}
+
+
+
+
+
+
+
+
+/* Expert Cards */
+
+
+.expert-section{
+
+padding:70px 40px;
+
+}
+
+
+
+.expert-section h2{
+
+text-align:center;
+
+color:#28a745;
+
+}
+
+
+
+.expert-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+
+
+.expert-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+
+
+.expert-card i{
+
+font-size:45px;
+
+color:#28a745;
+
+}
+
+
+
+.expert-card h3{
+
+color:#28a745;
+
+}
+
+
+
+
+
+.expert-card a{
+
+color:#28a745;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+/* Form */
+
+
+.request-section{
+
+max-width:900px;
+
+margin:60px auto;
+
+padding:40px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+
+.request-section h2{
+
+text-align:center;
+
+color:#28a745;
+
+}
+
+
+
+.request-form input,
+.request-form textarea{
+
+width:100%;
+
+padding:14px;
+
+margin:10px 0;
+
+border-radius:8px;
+
+border:1px solid #ccc;
+
+}
+
+
+
+.request-form button{
+
+width:100%;
+
+padding:15px;
+
+background:#28a745;
+
+color:white;
+
+border:none;
+
+border-radius:25px;
+
+font-weight:bold;
+
+}
+
+
+
+.request-form button:hover{
+
+background:#1e7e34;
+
+}
+
+
+
+
+
+/* Footer */
+
+
+.service-footer{
+
+background:#222;
+
+color:white;
+
+text-align:center;
+
+padding:40px;
+
+}
