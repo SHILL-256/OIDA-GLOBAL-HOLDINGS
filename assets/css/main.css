@@ -3389,45 +3389,46 @@ body {
 
 
 
-/* FORCE OIDA LOGO SIZE */
-
-#header .logo img.hero-logo {
-    width: 300px !important;
-    height: auto !important;
-    max-width: none !important;
-    object-fit: contain !important;
-}
-
-
-/* OIDA White Top Bar */
-
-#header {
-    background: white !important;
-    width: 100%;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
-}
-
 /* Logo right */
 #header .logo {
     order: 2;
 }
 
 #header .logo img.hero-logo {
-    width: 120px !important;
+    width: 200px !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+/* OIDA Logo Left - Menu Right */
+
+#header {
+    background: white !important;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 40px !important;
+}
+
+/* Logo left */
+#header .logo {
+    order: 1 !important;
+}
+
+#header .logo img.hero-logo {
+    width: 140px !important;
     height: auto !important;
 }
 
-/* Menu left */
+/* Menu right */
 #header nav {
-    order: 1;
+    order: 2 !important;
 }
 
 #header nav ul {
-    display: flex;
+    display: flex !important;
     gap: 25px;
     list-style: none;
     margin: 0;
@@ -3441,8 +3442,4 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-}
-
-#header nav ul li a:hover {
-    color: #28a745 !important;
 }
