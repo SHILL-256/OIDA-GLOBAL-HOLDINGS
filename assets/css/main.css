@@ -3384,4 +3384,10 @@ body.is-article-visible #footer {
     margin: 20px auto;
     display: block;
 }
-	
+
+
+	#main article.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
