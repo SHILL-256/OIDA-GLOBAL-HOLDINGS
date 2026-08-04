@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OIDA My Account</title>
+    <meta charset="utf-8">
+
+    <style>
+
+        body {
+            background:#f2f2f2;
+            font-family: Arial, sans-serif;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+
+        .login-box {
+
+            background:white;
+            width:380px;
+            padding:35px;
+            border-radius:15px;
+            box-shadow:0 5px 25px rgba(0,0,0,0.2);
+            text-align:center;
+
+        }
+
+
+        .login-box img {
+
+            width:120px;
+            margin-bottom:20px;
+
+        }
+
+
+        h2 {
+
+            color:#28a745;
+            margin-bottom:10px;
+
+        }
+
+
+        p {
+
+            color:#555;
+
+        }
+
+
+        .input-box {
+
+            text-align:left;
+            margin-top:20px;
+
+        }
+
+
+        label {
+
+            font-weight:bold;
+
+        }
+
+
+        input[type="text"],
+        input[type="password"] {
+
+            width:100%;
+            padding:12px;
+            margin-top:8px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            box-sizing:border-box;
+
+        }
+
+
+        .options {
+
+            display:flex;
+            justify-content:space-between;
+            margin-top:15px;
+            font-size:14px;
+
+        }
+
+
+        .options a {
+
+            color:#28a745;
+            text-decoration:none;
+
+        }
+
+
+        .login-btn {
+
+            width:100%;
+            margin-top:25px;
+            padding:13px;
+            background:#28a745;
+            color:white;
+            border:none;
+            border-radius:25px;
+            font-size:16px;
+            cursor:pointer;
+
+        }
+
+
+        .login-btn:hover {
+
+            background:#1e7e34;
+
+        }
+
+
+        .divider {
+
+            margin:25px 0;
+            display:flex;
+            align-items:center;
+            color:#999;
+
+        }
+
+
+        .divider:before,
+        .divider:after {
+
+            content:"";
+            flex:1;
+            border-bottom:1px solid #ddd;
+
+        }
+
+
+        .divider span {
+
+            padding:0 10px;
+
+        }
+
+
+        .google-btn {
+
+            width:100%;
+            padding:12px;
+            background:white;
+            border:1px solid #ccc;
+            border-radius:25px;
+            cursor:pointer;
+            font-weight:bold;
+
+        }
+
+
+        .signup {
+
+            margin-top:20px;
+
+        }
+
+
+        .signup a {
+
+            color:#28a745;
+            text-decoration:none;
+
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="login-box">
+
+
+    <img src="images/logo-half.png.jpeg" alt="OIDA Logo">
+
+
+    <h2>Welcome</h2>
+
+    <p>Enter your account details</p>
+
+
+
+    <form>
+
+
+        <div class="input-box">
+
+            <label>Username</label>
+
+            <input type="text" placeholder="Enter username">
+
+        </div>
+
+
+
+        <div class="input-box">
+
+            <label>Password</label>
+
+            <input type="password" placeholder="Enter password">
+
+        </div>
+
+
+
+        <div class="options">
+
+            <label>
+                <input type="checkbox">
+                Remember me
+            </label>
+
+
+            <a href="#">
+                Forgot Password?
+            </a>
+
+        </div>
+
+
+
+        <button class="login-btn">
+            Login
+        </button>
+
+
+
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+
+
+        <button class="google-btn">
+
+            🔵 Sign in with Google
+
+        </button>
+
+
+
+        <div class="signup">
+
+            Don't have an account?
+            <a href="#">
+                Sign Up
+            </a>
+
+        </div>
+
+
+
+    </form>
+
+
+</div>
+
+
+</body>
+</html>
