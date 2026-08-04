@@ -3612,11 +3612,70 @@ body {
 }
 
 
-/* Talk to an Expert */
+/* =========================================
+   SOFTWARE ENGINEERING PAGE
+========================================= */
+
+/* Header */
+
+.software-top{
+    background:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.software-logo{
+    width:150px;
+    height:auto;
+}
+
+.back-btn{
+    background:#28a745;
+    color:#fff;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.back-btn:hover{
+    background:#1f7d35;
+}
+
+/* Hero */
+
+.software-banner{
+    background:linear-gradient(135deg,#28a745,#1d6f36);
+    color:#fff;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.software-banner i{
+    font-size:90px;
+    margin-bottom:20px;
+}
+
+.software-banner h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.software-banner p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+/* Expert Section */
 
 .expert-section{
     padding:70px 40px;
-    background:#f8f9fa;
+    background:#f5f5f5;
 }
 
 .expert-section h2{
@@ -3627,21 +3686,21 @@ body {
 
 .expert-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
     gap:25px;
 }
 
 .expert-card{
     background:#fff;
-    border:2px solid #28a745;
     border-radius:12px;
     padding:25px;
     text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
     transition:.3s;
 }
 
 .expert-card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-8px);
 }
 
 .expert-card i{
@@ -3652,12 +3711,72 @@ body {
 
 .expert-card h3{
     color:#28a745;
-    margin-bottom:10px;
 }
 
-.expert-card p,
 .expert-card a{
-    color:#555;
+    color:#28a745;
     text-decoration:none;
-    font-weight:500;
+    font-weight:bold;
+}
+
+/* Form */
+
+.request-section{
+    max-width:900px;
+    margin:60px auto;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.request-section h2{
+    color:#28a745;
+    text-align:center;
+}
+
+.request-section p{
+    text-align:center;
+    color:#666;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea{
+    width:100%;
+    padding:14px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.request-form button{
+    width:100%;
+    padding:15px;
+    background:#28a745;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.request-form button:hover{
+    background:#1f7d35;
+}
+
+/* Footer */
+
+.software-footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.software-footer hr{
+    width:70%;
+    margin:25px auto;
 }
