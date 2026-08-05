@@ -4505,3 +4505,26 @@ padding:40px;
     }
 
 }
+
+
+/* Reduce company intro space */
+
+.company-intro {
+    padding:30px 40px !important;
+    margin:0 !important;
+}
+
+
+.company-intro h1 {
+    margin-bottom:10px !important;
+}
+
+
+.company-intro p {
+    margin-bottom:8px !important;
+}
+
+
+.intro-buttons {
+    margin-top:15px !important;
+}
