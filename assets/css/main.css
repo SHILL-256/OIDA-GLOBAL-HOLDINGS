@@ -4584,3 +4584,115 @@ padding:40px;
     padding-top:20px !important;
 
 }
+
+
+
+/* =========================
+   INNOVATION DRIVEN SOLUTIONS
+   ========================= */
+
+.innovation-section {
+
+    text-align:center;
+    padding:35px 20px;
+
+}
+
+
+.innovation-section h2 {
+
+    color:#28a745 !important;
+    font-size:30px;
+    font-weight:900;
+
+}
+
+
+.innovation-section p {
+
+    color:white !important;
+    font-size:16px;
+
+}
+
+
+.innovation-grid {
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-top:30px;
+
+}
+
+
+.innovation-circle {
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.innovation-circle i {
+
+    color:#28a745;
+    font-size:35px;
+
+}
+
+
+.innovation-circle h3 {
+
+    color:#28a745 !important;
+    font-size:17px;
+    font-weight:900;
+    margin:10px 0;
+
+}
+
+
+.innovation-circle span {
+
+    color:#555;
+    font-size:12px;
+    padding:0 15px;
+
+}
+
+
+/* Tablet */
+
+@media(max-width:900px){
+
+    .innovation-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .innovation-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
