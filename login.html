@@ -269,6 +269,64 @@
 
 </div>
 
+    <script type="module">
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+import { 
+getAuth,
+GoogleAuthProvider,
+signInWithPopup
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+
+// Your Firebase configuration will go here
+
+const firebaseConfig = {
+
+};
+
+
+const app = initializeApp(firebaseConfig);
+
+const auth = getAuth(app);
+
+
+const provider = new GoogleAuthProvider();
+
+
+
+document.querySelector(".google-btn").addEventListener("click", function(){
+
+
+signInWithPopup(auth, provider)
+
+.then((result)=>{
+
+
+alert("Welcome " + result.user.displayName);
+
+
+window.location.href="index.html";
+
+
+})
+
+
+.catch((error)=>{
+
+
+alert(error.message);
+
+
+});
+
+
+});
+
+
+</script>
+
 
 </body>
 </html>
