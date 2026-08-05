@@ -4413,12 +4413,56 @@ padding:40px;
 
 
 /* =========================
-   INTRO BUTTONS
+   COMPANY INTRO - FIT HEADER AREA
    ========================= */
+
+.company-intro {
+
+    text-align:left;
+    max-width:750px;
+    padding:35px 40px !important;
+    margin-left:5%;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+
+}
+
+
+.company-intro h1 {
+
+    font-size:36px !important;
+    font-weight:900 !important;
+    color:#28a745 !important;
+    line-height:1.2;
+    margin-bottom:12px !important;
+
+}
+
+
+.company-intro p {
+
+    font-size:16px !important;
+    line-height:1.6 !important;
+    color:#555 !important;
+    margin-bottom:10px !important;
+
+}
+
+
+.company-intro .intro-main {
+
+    font-size:18px !important;
+    font-weight:600 !important;
+    color:#333 !important;
+
+}
+
+
+/* Buttons */
 
 .intro-buttons {
 
-    margin-top:35px;
+    margin-top:20px !important;
     display:flex;
     gap:15px;
     flex-wrap:wrap;
@@ -4437,54 +4481,26 @@ padding:40px;
 
     white-space:nowrap !important;
 
-    padding:14px 30px !important;
+    padding:10px 25px !important;
 
-    min-width:auto !important;
+    border-radius:25px !important;
 
-    border-radius:30px !important;
-
-    font-size:16px !important;
+    font-size:15px !important;
 
     font-weight:900 !important;
 
-    text-decoration:none !important;
-
 }
 
 
-.intro-buttons .button:hover {
-
-    background:orange !important;
-    color:white !important;
-
-}
-
-
-/* =========================
-   MOBILE VIEW
-   ========================= */
+/* Mobile */
 
 @media screen and (max-width:736px){
 
     .company-intro{
 
         margin-left:0;
-        padding:40px 20px;
+        padding:25px 20px !important;
         text-align:center;
-
-    }
-
-
-    .company-intro h1{
-
-        font-size:32px !important;
-
-    }
-
-
-    .intro-buttons{
-
-        justify-content:center;
 
     }
 
