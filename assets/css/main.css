@@ -4291,3 +4291,48 @@ padding:40px;
 .learn-button:hover {
     background:orange;
 }
+
+
+/* ICT Request Form */
+
+.request-form label{
+
+display:block;
+margin-top:15px;
+margin-bottom:6px;
+font-weight:bold;
+color:#28a745;
+
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea{
+
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+margin-bottom:15px;
+font-size:15px;
+
+}
+
+.request-form button{
+
+background:#28a745;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:25px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+.request-form button:hover{
+
+background:orange;
+
+}
