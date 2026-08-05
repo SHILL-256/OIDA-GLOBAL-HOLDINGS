@@ -4368,23 +4368,26 @@ padding:40px;
 
 }
 
-/* Professional Company Intro */
+/* =========================
+   COMPANY INTRO - LEFT SIDE
+   ========================= */
 
 .company-intro {
 
-    text-align:center;
-    max-width:1000px;
-    margin:auto;
-    padding:70px 25px;
+    text-align:left;
+    max-width:750px;
+    padding:70px 40px;
+    margin-left:5%;
 
 }
 
 
 .company-intro h1 {
 
-    font-size:42px;
-    font-weight:900;
-    color:#28a745;
+    font-size:42px !important;
+    font-weight:900 !important;
+    color:#28a745 !important;
+    line-height:1.2;
     margin-bottom:20px;
 
 }
@@ -4392,9 +4395,9 @@ padding:40px;
 
 .company-intro p {
 
-    font-size:18px;
+    font-size:18px !important;
     line-height:1.8;
-    color:#555;
+    color:#555 !important;
     margin-bottom:15px;
 
 }
@@ -4402,16 +4405,23 @@ padding:40px;
 
 .company-intro .intro-main {
 
-    font-size:21px;
-    font-weight:600;
-    color:#333;
+    font-size:21px !important;
+    font-weight:600 !important;
+    color:#333 !important;
 
 }
 
 
+/* =========================
+   INTRO BUTTONS
+   ========================= */
+
 .intro-buttons {
 
     margin-top:35px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
 
 }
 
@@ -4420,9 +4430,62 @@ padding:40px;
 
     background:orange !important;
     color:white !important;
-    padding:14px 35px !important;
+
+    display:inline-flex !important;
+    align-items:center;
+    justify-content:center;
+
+    white-space:nowrap !important;
+
+    padding:14px 30px !important;
+
+    min-width:auto !important;
+
     border-radius:30px !important;
+
+    font-size:16px !important;
+
     font-weight:900 !important;
-    margin:10px;
+
+    text-decoration:none !important;
+
+}
+
+
+.intro-buttons .button:hover {
+
+    background:orange !important;
+    color:white !important;
+
+}
+
+
+/* =========================
+   MOBILE VIEW
+   ========================= */
+
+@media screen and (max-width:736px){
+
+    .company-intro{
+
+        margin-left:0;
+        padding:40px 20px;
+        text-align:center;
+
+    }
+
+
+    .company-intro h1{
+
+        font-size:32px !important;
+
+    }
+
+
+    .intro-buttons{
+
+        justify-content:center;
+
+    }
 
 }
