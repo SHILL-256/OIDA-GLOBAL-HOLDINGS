@@ -4528,3 +4528,18 @@ padding:40px;
 .intro-buttons {
     margin-top:15px !important;
 }
+
+
+/* Company Intro White Text */
+
+.company-intro h1 {
+    color:#ffffff !important;
+}
+
+.company-intro p {
+    color:#ffffff !important;
+}
+
+.company-intro .intro-main {
+    color:#ffffff !important;
+}
