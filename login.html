@@ -77,7 +77,6 @@ input{
 }
 
 
-
 .options{
 
     display:flex;
@@ -96,7 +95,6 @@ input{
 }
 
 
-
 .login-btn{
 
     width:100%;
@@ -109,7 +107,6 @@ input{
     cursor:pointer;
 
 }
-
 
 
 .divider{
@@ -139,7 +136,6 @@ input{
 }
 
 
-
 .google-btn{
 
     width:100%;
@@ -153,13 +149,11 @@ input{
 }
 
 
-
 .google-btn:hover{
 
     background:#f5f5f5;
 
 }
-
 
 
 .signup{
@@ -174,7 +168,6 @@ input{
     color:#28a745;
 
 }
-
 
 </style>
 
@@ -217,7 +210,6 @@ Username / Email
 
 
 
-
 <div class="input-box">
 
 <label>
@@ -230,22 +222,17 @@ Password
 
 
 
-
 <div class="options">
 
 <label>
-
 <input type="checkbox">
-
 Remember me
-
 </label>
 
 
 <a href="#">
 Forgot Password?
 </a>
-
 
 </div>
 
@@ -260,7 +247,6 @@ Login
 
 
 
-
 <div class="divider">
 
 <span>
@@ -271,13 +257,11 @@ OR
 
 
 
-
 <button class="google-btn" id="googleLogin" type="button">
 
 🔵 Sign in with Google
 
 </button>
-
 
 
 
@@ -301,6 +285,7 @@ Sign Up
 
 
 
+
 <script type="module">
 
 
@@ -308,17 +293,15 @@ import { initializeApp }
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
 
 
-import { 
+import {
 
 getAuth,
 
 GoogleAuthProvider,
 
-signInWithRedirect,
+signInWithPopup
 
-getRedirectResult
-
-} 
+}
 
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-auth.js";
 
@@ -327,7 +310,6 @@ from "https://www.gstatic.com/firebasejs/12.17.1/firebase-auth.js";
 
 
 const firebaseConfig = {
-
 
 apiKey: "AIzaSyBFSC4axFPLk4b7ICzZYgBhjr9ApPgtSGk",
 
@@ -365,27 +347,18 @@ const googleButton = document.getElementById("googleLogin");
 
 
 
-googleButton.addEventListener("click",()=>{
+googleButton.addEventListener("click", async ()=>{
 
 
-signInWithRedirect(auth, provider);
+try{
 
 
-});
+const result = await signInWithPopup(auth, provider);
 
-
-
-
-
-getRedirectResult(auth)
-
-.then((result)=>{
-
-
-if(result){
 
 
 alert("Welcome " + result.user.displayName);
+
 
 
 window.location.href="index.html";
@@ -394,10 +367,7 @@ window.location.href="index.html";
 }
 
 
-})
-
-
-.catch((error)=>{
+catch(error){
 
 
 console.log(error.code);
@@ -406,6 +376,9 @@ console.log(error.message);
 
 
 alert(error.message);
+
+
+}
 
 
 });
