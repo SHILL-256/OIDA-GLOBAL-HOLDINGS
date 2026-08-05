@@ -4696,3 +4696,39 @@ padding:40px;
     }
 
 }
+
+
+/* REDUCE SPACE BETWEEN HOMEPAGE SECTIONS */
+
+#main article,
+#main section {
+
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    padding-top:20px !important;
+    padding-bottom:20px !important;
+
+}
+
+
+.company-intro {
+
+    margin-bottom:0 !important;
+    padding-bottom:20px !important;
+
+}
+
+
+.innovation-section {
+
+    margin:0 !important;
+    padding:20px 15px !important;
+
+}
+
+
+#products {
+
+    margin-top:0 !important;
+
+}
