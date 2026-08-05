@@ -160,7 +160,6 @@ input{
 }
 
 
-
 .google-btn:hover{
 
     background:#f5f5f5;
@@ -196,7 +195,7 @@ input{
 <div class="login-box">
 
 
-<img src="images/logo-half.png.jpeg">
+<img src="images/logo-half.png.jpeg" alt="OIDA Logo">
 
 
 
@@ -211,7 +210,6 @@ Enter your account details
 
 
 
-
 <form>
 
 
@@ -222,7 +220,6 @@ Username / Email
 </label>
 
 <input type="text" id="email" placeholder="Enter email">
-
 
 </div>
 
@@ -293,7 +290,7 @@ OR
 
 
 
-<button class="google-btn" type="button">
+<button class="google-btn" id="googleLogin" type="button">
 
 🔵 Sign in with Google
 
@@ -332,7 +329,6 @@ Sign Up
 
 import { initializeApp } 
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
-
 
 
 import {
@@ -375,9 +371,7 @@ appId: "1:986041249457:web:45ab6af92cf5994e317c90"
 const app = initializeApp(firebaseConfig);
 
 
-
 const auth = getAuth(app);
-
 
 
 const provider = new GoogleAuthProvider();
@@ -385,33 +379,57 @@ const provider = new GoogleAuthProvider();
 
 
 
+const googleButton = document.getElementById("googleLogin");
 
 
-document.querySelector(".google-btn").addEventListener("click",()=>{
+
+googleButton.addEventListener("click", async ()=>{
 
 
-signInWithPopup(auth,provider)
+googleButton.disabled = true;
 
 
-.then((result)=>{
+
+try{
+
+
+const result = await signInWithPopup(auth, provider);
+
 
 
 alert("Welcome " + result.user.displayName);
 
 
+
 window.location.href="index.html";
 
 
-})
+
+}
 
 
-.catch((error)=>{
+catch(error){
+
+
+console.log(error.code);
+
+console.log(error.message);
 
 
 alert(error.message);
 
 
-});
+
+}
+
+
+finally{
+
+
+googleButton.disabled = false;
+
+
+}
 
 
 });
