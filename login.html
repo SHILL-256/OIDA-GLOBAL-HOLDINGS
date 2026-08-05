@@ -43,16 +43,12 @@ body{
 
 
 h2{
-
     color:#28a745;
-
 }
 
 
 p{
-
     color:#555;
-
 }
 
 
@@ -65,9 +61,7 @@ p{
 
 
 label{
-
     font-weight:bold;
-
 }
 
 
@@ -113,7 +107,6 @@ input{
     border:none;
     border-radius:25px;
     cursor:pointer;
-    font-size:16px;
 
 }
 
@@ -160,6 +153,7 @@ input{
 }
 
 
+
 .google-btn:hover{
 
     background:#f5f5f5;
@@ -191,12 +185,10 @@ input{
 <body>
 
 
-
 <div class="login-box">
 
 
 <img src="images/logo-half.png.jpeg" alt="OIDA Logo">
-
 
 
 <h2>
@@ -228,23 +220,18 @@ Username / Email
 
 <div class="input-box">
 
-
 <label>
 Password
 </label>
 
-
 <input type="password" id="password" placeholder="Enter password">
-
 
 </div>
 
 
 
 
-
 <div class="options">
-
 
 <label>
 
@@ -253,7 +240,6 @@ Password
 Remember me
 
 </label>
-
 
 
 <a href="#">
@@ -266,14 +252,11 @@ Forgot Password?
 
 
 
-
 <button class="login-btn" type="button">
 
 Login
 
 </button>
-
-
 
 
 
@@ -289,13 +272,11 @@ OR
 
 
 
-
 <button class="google-btn" id="googleLogin" type="button">
 
 🔵 Sign in with Google
 
 </button>
-
 
 
 
@@ -308,18 +289,14 @@ Don't have an account?
 Sign Up
 </a>
 
-
 </div>
-
 
 
 
 </form>
 
 
-
 </div>
-
 
 
 
@@ -331,15 +308,17 @@ import { initializeApp }
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
 
 
-import {
+import { 
 
 getAuth,
 
 GoogleAuthProvider,
 
-signInWithPopup
+signInWithRedirect,
 
-}
+getRedirectResult
+
+} 
 
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-auth.js";
 
@@ -379,36 +358,46 @@ const provider = new GoogleAuthProvider();
 
 
 
+
 const googleButton = document.getElementById("googleLogin");
 
 
 
-googleButton.addEventListener("click", async ()=>{
 
 
-googleButton.disabled = true;
+googleButton.addEventListener("click",()=>{
+
+
+signInWithRedirect(auth, provider);
+
+
+});
 
 
 
-try{
 
 
-const result = await signInWithPopup(auth, provider);
+getRedirectResult(auth)
 
+.then((result)=>{
+
+
+if(result){
 
 
 alert("Welcome " + result.user.displayName);
 
 
-
 window.location.href="index.html";
-
 
 
 }
 
 
-catch(error){
+})
+
+
+.catch((error)=>{
 
 
 console.log(error.code);
@@ -417,19 +406,6 @@ console.log(error.message);
 
 
 alert(error.message);
-
-
-
-}
-
-
-finally{
-
-
-googleButton.disabled = false;
-
-
-}
 
 
 });
