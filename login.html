@@ -186,12 +186,10 @@ input{
 <body>
 
 
-
 <div class="login-box">
 
 
 <img src="images/logo-half.png.jpeg" alt="OIDA Logo">
-
 
 
 <h2>
@@ -206,9 +204,6 @@ Enter your account details
 
 
 
-<form>
-
-
 <div class="input-box">
 
 <label>
@@ -216,7 +211,6 @@ Username / Email
 </label>
 
 <input type="email" id="email" placeholder="Enter email">
-
 
 </div>
 
@@ -231,24 +225,20 @@ Password
 
 <input type="password" id="password" placeholder="Enter password">
 
-
 </div>
-
 
 
 
 
 <div class="options">
 
-
 <label>
 
-<input type="checkbox">
+<input type="checkbox" id="remember">
 
 Remember me
 
 </label>
-
 
 
 <a href="#">
@@ -262,7 +252,7 @@ Forgot Password?
 
 
 
-<button class="login-btn" type="button">
+<button class="login-btn" id="loginBtn">
 
 Login
 
@@ -285,7 +275,7 @@ OR
 
 
 
-<button class="google-btn" id="googleLogin" type="button">
+<button class="google-btn" id="googleLogin">
 
 🔵 Sign in with Google
 
@@ -309,10 +299,6 @@ Sign Up
 
 
 
-</form>
-
-
-
 </div>
 
 
@@ -322,8 +308,10 @@ Sign Up
 <script type="module">
 
 
-import { initializeApp } 
+import { initializeApp }
+
 from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
+
 
 
 import {
@@ -332,7 +320,9 @@ getAuth,
 
 GoogleAuthProvider,
 
-signInWithPopup
+signInWithPopup,
+
+signInWithEmailAndPassword
 
 }
 
@@ -375,6 +365,59 @@ const provider = new GoogleAuthProvider();
 
 
 
+// EMAIL LOGIN
+
+document.getElementById("loginBtn").addEventListener("click", async ()=>{
+
+
+const email = document.getElementById("email").value;
+
+const password = document.getElementById("password").value;
+
+
+
+try{
+
+
+const userCredential = await signInWithEmailAndPassword(
+
+auth,
+
+email,
+
+password
+
+);
+
+
+
+alert("Welcome back " + userCredential.user.email);
+
+
+window.location.href="index.html";
+
+
+}
+
+
+catch(error){
+
+
+alert(error.message);
+
+
+}
+
+
+});
+
+
+
+
+
+
+// GOOGLE LOGIN
+
 document.getElementById("googleLogin").addEventListener("click", async ()=>{
 
 
@@ -384,7 +427,9 @@ try{
 const result = await signInWithPopup(auth, provider);
 
 
+
 alert("Welcome " + result.user.displayName);
+
 
 
 window.location.href="index.html";
