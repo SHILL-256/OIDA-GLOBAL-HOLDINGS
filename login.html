@@ -391,6 +391,15 @@ document.getElementById("loginBtn").addEventListener("click", async ()=>{
 const email=document.getElementById("email").value;
 
 const password=document.getElementById("password").value;
+    
+
+    if(email === "" || password === ""){
+
+    alert("Please enter your email and password");
+
+    return;
+
+}
 
 
 
@@ -448,7 +457,6 @@ alert("Welcome "+result.user.displayName);
 
 
 
-window.location.href="index.html";
 
 
 }
